@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>CMClerp</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>breso</servlet-name>
+    <servlet-class>breso</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>breso</servlet-name>
+    <url-pattern>/breso</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <servlet-name>loginstud</servlet-name>
+    <servlet-class>loginstud</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>loginstud</servlet-name>
+    <url-pattern>/loginstud</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>bpro</servlet-name>
+    <servlet-class>bpro</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>bpro</servlet-name>
+    <url-pattern>/bpro</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>SuperAdmin</servlet-name>
+    <servlet-class>SuperAdmin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SuperAdmin</servlet-name>
+    <url-pattern>/SuperAdmin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AddCategory</servlet-name>
+    <servlet-class>AddCategory</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddCategory</servlet-name>
+    <url-pattern>/AddCategory</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>SendOtp</servlet-name>
+    <servlet-class>SendOtp</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SendOtp</servlet-name>
+    <url-pattern>/SendOtp</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Delete</servlet-name>
+    <servlet-class>Delete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Delete</servlet-name>
+    <url-pattern>/Delete</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
